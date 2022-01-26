@@ -103,7 +103,7 @@ Once deployed, the Grafana service will send its logs to Loki.
 
 ## Labels
 
-Loki can received a set of labels along with log line. These labels are used to index log entries and query back logs using [LogQL stream selector](../../../logql/#log-stream-selector).
+Loki can receive a set of labels along with log line. These labels are used to index log entries and query back logs using [LogQL stream selector](../../../logql/#log-stream-selector).
 
 By default, the Docker driver will add the following labels to each log line:
 
